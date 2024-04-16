@@ -105,18 +105,18 @@
             <span class="author-block">
               <a href="https://livioni.github.io/">Haosong Peng</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://couteaux123.github.io/">Wei Feng</a><sup>1,6,*</sup>,</span>
+              <a href="https://couteaux123.github.io/">Wei Feng</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://lifuguan.github.io/">Hao Li</a><sup>4</sup>,
+              <a href="https://lifuguan.github.io/">Hao Li</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://dblp.org/pid/173/1777.html">Yufeng Zhan</a><sup>2,*</sup>,
+              <a href="https://dblp.org/pid/173/1777.html">Yufeng Zhan</a><sup>4</sup>,
             </span>
             <span class="author-block">
-              <a href="https://github.com/kimihe">Qihua Zhou</a><sup>3</sup>,
+              <a href="https://github.com/kimihe">Qihua Zhou</a><sup>5</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=HtedN3oAAAAJ&hl=zh-CN">Yuanqing Xia</a><sup>1</sup>,
+              <a href="https://scholar.google.com/citations?user=HtedN3oAAAAJ&hl=zh-CN">Yuanqing Xia</a><sup>6</sup>,
             </span>
           </div>
 
@@ -192,7 +192,7 @@
         <img id="framework" src="./static/images/overview.png">
         </img>
         <div class="content has-text-justified">
-          <strong>Overview of proposed GP-NeRF.</strong> Given reference views with their poses, we embed NeRF into the segmenter to perform context-aware semantic $Y_{sem}$ /instance $Y_{ins}$ segmentation and ray reconstruction $Y_{rgb}$ in novel view (Sec. 4.1). In detail, we use Transformers to co-aggregate Radiance as well as Semantic-Embedding fields and render them jointly in novel views (Sec. 4.2). Specifically, we propose two self-distillation mechanisms to boost the discrimination and quality of the semantic embedding field (Sec. 4.3).
+          <strong>Overview of proposed Arena.</strong> Given \(K\) continuous frames  \(\{\hat{\mathbf{x}}^1, \mathbf{x}^2, \ldots, \mathbf{x}^K\}\) in an interval, Arena periodically operates in two distinct phases: keyframe inference (Left) for the first frame \(\hat{\mathbf{x}}^1\) and non-keyframe inference (Right) for the rest of the frames. Both two phases use the same network architecture with shared weights. Notably, we split the frame into nine patches only for demonstration..
         </div>
       </div>
     </div>
