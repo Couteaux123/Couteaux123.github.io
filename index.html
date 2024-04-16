@@ -142,7 +142,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2311.11863"
+                <a href="https://arxiv.org/abs/2404.09245"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -151,7 +151,7 @@
                 </a>
               </span>
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/lifuguan/GP-NeRF"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -159,7 +159,7 @@
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
+              </span> -->
             </div>
 
           </div>
@@ -189,7 +189,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-max-desktop">
         <h2 class="title is-3">Method</h2>
-        <img id="framework" src="./static/images/framework.jpg">
+        <img id="framework" src="./static/images/overview_new.pdf">
         </img>
         <div class="content has-text-justified">
           <strong>Overview of proposed GP-NeRF.</strong> Given reference views with their poses, we embed NeRF into the segmenter to perform context-aware semantic $Y_{sem}$ /instance $Y_{ins}$ segmentation and ray reconstruction $Y_{rgb}$ in novel view (Sec. 4.1). In detail, we use Transformers to co-aggregate Radiance as well as Semantic-Embedding fields and render them jointly in novel views (Sec. 4.2). Specifically, we propose two self-distillation mechanisms to boost the discrimination and quality of the semantic embedding field (Sec. 4.3).
@@ -305,11 +305,13 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{li2024gp,
-  title={GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding},
-  author={Li, Hao and Zhang, Dingwen and Dai, Yalun and Liu, Nian and Cheng, Lechao and Li, Jingfeng and Wang, Jingdong and Han, Junwei},
-  journal={CVPR},
-  year={2024}
+    <pre><code>@misc{peng2024arena,
+      title={Arena: A Patch-of-Interest ViT Inference Acceleration System for Edge-Assisted Video Analytics}, 
+      author={Haosong Peng and Wei Feng and Hao Li and Yufeng Zhan and Qihua Zhou and Yuanqing Xia},
+      year={2024},
+      eprint={2404.09245},
+      archivePrefix={arXiv},
+      primaryClass={cs.MM}
 }</code></pre>
   </div>
 </section>
